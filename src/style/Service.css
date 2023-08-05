@@ -1,0 +1,47 @@
+.contents__service{
+    display: flex;
+    justify-content: space-around;
+}
+.picture img{
+    width: 45px;
+    height: 40px;
+    margin-right: 10px;
+    transition: 0.3s ease-in-out;
+}
+.picture img:hover{
+    transform: translateX(10px);
+}
+.text p{
+    margin-top: 12px;
+    font-size: 14px;
+    list-style: 24px;
+}
+.text span{
+    font-weight: bold;
+}
+.free__shopping{
+    display: flex;
+    justify-content: start;
+    height: 60px;
+    flex: 1;
+    margin-left: 15px;
+}
+.picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+}
+.credit__cards{
+    display: flex;
+    justify-content: start;
+    height: 60px;
+    flex: 1;
+    margin: 0px 10px;
+}
+.return__policy{
+    flex: 1;
+    display: flex;
+    justify-content: start;
+    height: 60px;
+}

@@ -1,0 +1,47 @@
+.card{
+    width: 300px;
+    background-color: #f2f2f2;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    transition-duration: 0.3s;
+    transform: matrix(1,0,0,1,0,0);
+    transition-property: transform;
+    transition-timing-function: linear;
+}
+.card:hover{
+    transform: translateY(-20px);
+}
+.card__picture img{
+    width: 300px;
+        overflow: hidden;
+}
+.card__information{
+    margin-top: 25px;
+    padding-bottom: 35px;
+    text-align: center;
+}
+.card__information h3{
+    font-size: 16px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 15px;
+}
+.card__information p{
+    color: rgb(63, 64, 69);
+    font-size: 14px;
+    width: 240px;
+    margin: 10px auto;
+    font-weight: 600;
+    line-height: 23px;
+    margin-bottom:20px;
+}
+.card__information a{
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color ease-in 0.2s;
+}
+.card__information a:hover{
+    color: #fb5300;
+}

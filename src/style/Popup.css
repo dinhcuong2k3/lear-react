@@ -1,0 +1,40 @@
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Màu nền mờ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 9999; /* Đặt z-index để popup nằm trên tất cả các phần tử khác */
+  }
+  
+  .popup__content {
+    background-color: #fff;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .popup__close-btn {
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    cursor: pointer;
+    font-size: 35px;
+    font-weight: 10;
+    color: white;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.2s ease-in;
+  }
+  
+  .popup__close-btn:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+  }

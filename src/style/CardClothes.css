@@ -1,0 +1,5 @@
+.contents__card__clothes{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0 65px 0;
+}

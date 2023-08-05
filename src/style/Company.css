@@ -1,0 +1,16 @@
+.footer__company{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 35px;
+    line-height: 27px;
+    height: 27px;
+    border-top: 1px solid rgba(0, 0, 0, 0);
+}
+.text__company p{
+    line-height: 27px;
+}
+.item__company img{
+    margin-right: 9px;
+    width: 50px;
+    height: 34px;
+}

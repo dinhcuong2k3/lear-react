@@ -1,0 +1,38 @@
+.video{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.tiktok-video {
+    right: 20px;
+    width: 320px;
+    height: 760px;
+}
+.tiktok-text{
+    margin-top: 150px;
+    text-align: center;
+}
+.tiktok-text h2{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+.tiktok-text p{
+    color: rgb(63, 64, 69);
+    font-size: 14px;
+}
+.tiktok-follow{
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: color 0.3s ease-in;
+}
+.tiktok-follow:hover{
+    color: rgb(36, 66, 92);
+}
+.tiktok-follow a {
+    font-weight: 900;
+}
+.tiktok-follow i{
+    font-weight: 900;
+}

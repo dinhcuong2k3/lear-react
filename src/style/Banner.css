@@ -1,0 +1,45 @@
+.contents__banner{
+    margin-top: 115px;
+    height: 700px;
+    max-width: 1500px;
+    width: 100%;
+    overflow: hidden;
+}
+.contents__picture{
+    max-width: 1500px;
+    width: 100%;
+    overflow: hidden;
+}
+.contents__picture img{
+    max-width: 100%;
+    display: block;
+    height: 611px;
+    overflow: hidden;
+}
+.contents__cap{
+    margin-top: -500px;
+    margin-left: 50px;
+}
+.contents__cap p{
+    font-size: 80px;
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.contents__cap p:first-child{
+    font-size: 30px;
+}
+.btn{
+    margin-top: 20px;
+    width: 130px;
+    height: 50px;
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    transition: background-color 0.3s ease-in-out;
+}
+.btn:hover{
+    background-color: rgb(251, 83, 0);
+}

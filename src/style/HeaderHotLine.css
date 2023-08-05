@@ -1,0 +1,129 @@
+.header__information{
+    display: flex;
+    justify-content: space-around;
+    line-height: 60px;
+    height: 60px;
+    max-width: 1500px;
+    width: 100%;
+    font-size: 12px;
+    box-shadow: 0 3px 1px -2px rgba(145,158,171,.2),0 2px 2px 0 rgba(145,158,171,.14),0 1px 5px 0 rgba(145,158,171,.12)!important;
+}
+.header__title{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 3;
+    padding-left: 120px;
+}
+.text__title{
+    font-weight: bold;
+}
+.header__adress{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.adress{
+    padding-right: 50px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.adress p i{
+    padding-right: 5px;
+}
+.language{
+    padding-right: 23px;
+    position: relative;
+    display: inline-block;
+}
+.language p i{
+    padding-left: 5px;
+}
+.money p i{
+    padding-left: 5px;
+}
+.hot__line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    width: 100%;
+    padding-left: 20px;
+}
+.number__phone{
+    margin-right:20px;
+}
+.number__phone a{
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+.number__phone a i{
+    margin-right: 5px;
+}
+.number__phone a:hover{
+    color: #fb5300;
+}
+.email a{
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+.email a i{
+    margin-right: 5px;
+    transition: ease ease-in ease-in-out;
+}
+.email a:hover{
+    color: #fb5300;
+}
+.language p button{
+    cursor: pointer;
+    width: 100px;
+    background-color: white;
+    border: none;
+    transition: color 0.2s ease-in;
+}
+.language p button:hover .header__address--nation{
+    display: block;
+    max-height: 200px;  
+    color: #fb5300;
+}
+.header__address--nation{
+    position: absolute;
+    width: 104px;
+    height: 125px;
+    background-color: white;
+    border: 1px solid rgb(223, 217, 217);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    top: 60px;
+    margin-left: 15px;
+    display: none;
+    animation: fadeInUp 0.3s ease-in-out forwards;
+    max-height: 0;
+    overflow: hidden;
+}
+.header__address--nation ul li{
+    list-style: none;
+    line-height: 41px;
+    display: block;
+    cursor: pointer;
+}
+.header__address--nation ul li:nth-child(2){
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.header__address--nation ul li a{
+    text-decoration: none;
+}
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+      max-height: 0;
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+      max-height: 200px;
+    }
+  }
+  

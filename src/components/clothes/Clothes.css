@@ -1,0 +1,52 @@
+.clothes__picture img {
+    width: 258px;
+    height: 344px;
+}
+.clothes__picture{
+    display: flex;
+}
+.clothes__information{
+    margin-top: 25px;
+}
+.clothes__information h3{
+    margin-bottom: 18px;
+}
+.clothes__information h3 a{
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.clothes__information h3 a:hover{
+    color: #fb5300;
+}
+.star i{
+    font-size: 14px;
+}
+.clothes__information p{
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 15px;
+}
+.clothes__color{
+    display: flex;
+    justify-content: start;
+}
+.color__circle{
+    width: 20px;
+    height: 20px;
+    background-color: aqua;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: transform ease-in 0.2s;
+    
+}
+.color__circle:first-child{
+    border: 1px solid black;
+}
+span{
+    margin-top: 15px;
+}
+.color__circle:hover{
+    transform: scale(0.8 ,0.8);
+    border: 1px solid black;
+}

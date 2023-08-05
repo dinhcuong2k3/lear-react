@@ -1,0 +1,12 @@
+.product__clothes{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+.contents__product h2 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.contents__product {
+    margin-top: 60px;
+}
